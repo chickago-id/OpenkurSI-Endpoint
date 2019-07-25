@@ -1,0 +1,159 @@
+{
+	"id": "de68668d-53e3-a59d-3c61-162846c9aab8",
+	"name": "Chickago ID - OpenkurSI",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Materi",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"order": [
+				"f0fe69f2-c4e5-fed1-0a63-a4d3a23f5f4f",
+				"b1d5025b-2b22-e909-9c21-365202402de7",
+				"356af774-ddf9-1d1c-da00-cbe8e8074b74",
+				"8d769ee3-ca47-726c-23b5-ddd06e864c09",
+				"b5cb9602-2c4f-eea1-b1b2-f0e4d39713a9"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02"
+		}
+	],
+	"folders_order": [
+		"0556dfdf-d02a-ebfd-3698-7f15c2b96c02"
+	],
+	"timestamp": 1563938851514,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "356af774-ddf9-1d1c-da00-cbe8e8074b74",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8081/materi/18",
+			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564029649852,
+			"name": "Get data materi",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": []
+		},
+		{
+			"id": "8d769ee3-ca47-726c-23b5-ddd06e864c09",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/materi/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564034661999,
+			"name": "Update data materi",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": \"3\",\n\t\"kode_materi\": \"Admin\",\n\t\"nama_materi\": \"Proffesional Admin\"\n}"
+		},
+		{
+			"id": "b1d5025b-2b22-e909-9c21-365202402de7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/materi",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564027709326,
+			"name": "Simpan data materi",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"kode_materi\": \"XLS\",\n\t\"nama_materi\": \"Professional Excel\"\n}"
+		},
+		{
+			"id": "b5cb9602-2c4f-eea1-b1b2-f0e4d39713a9",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8081/materi/5",
+			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564034741507,
+			"name": "Delete data materi",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": []
+		},
+		{
+			"id": "f0fe69f2-c4e5-fed1-0a63-a4d3a23f5f4f",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8081/materi",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"data": null,
+			"dataMode": "params",
+			"name": "Daftar Materi",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1563941737265,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02"
+		}
+	]
+}
