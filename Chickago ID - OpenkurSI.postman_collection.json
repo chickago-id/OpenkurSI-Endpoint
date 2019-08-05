@@ -5,6 +5,17 @@
 	"order": [],
 	"folders": [
 		{
+			"name": "Login",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"order": [
+				"d2fecbfe-884b-1d1e-df4b-ad97414cea81"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "b34e57a2-3d85-8dc5-df92-245750472a5a"
+		},
+		{
 			"name": "Materi",
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
@@ -18,10 +29,24 @@
 			"owner": 0,
 			"folders_order": [],
 			"id": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02"
+		},
+		{
+			"name": "Pendaftaran",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"order": [
+				"56346f7f-e77d-e827-b125-a4d606c8c2f4",
+				"ed996408-27ab-99dd-c2d1-185945772f66"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "fbc045d5-b994-4dc4-291f-094df7608b62"
 		}
 	],
 	"folders_order": [
-		"0556dfdf-d02a-ebfd-3698-7f15c2b96c02"
+		"0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
+		"fbc045d5-b994-4dc4-291f-094df7608b62",
+		"b34e57a2-3d85-8dc5-df92-245750472a5a"
 	],
 	"timestamp": 1563938851514,
 	"owner": 0,
@@ -51,17 +76,48 @@
 			"responses": []
 		},
 		{
+			"id": "56346f7f-e77d-e827-b125-a4d606c8c2f4",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8081/pendaftaran",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"data": null,
+			"dataMode": "params",
+			"name": "Pendaftaran Peserta",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1564114456696,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "fbc045d5-b994-4dc4-291f-094df7608b62"
+		},
+		{
 			"id": "8d769ee3-ca47-726c-23b5-ddd06e864c09",
-			"headers": "Content-Type: application/json\n",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NDk5MjYzNywicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NDk5NjIzNywiaWF0IjoxNTY0OTkyNjM3fQ.xwkkFVg3O8Dlrz5rQjN2NllE1tukUP9Ewp-3Dr_gV64\n",
 			"headerData": [
 				{
 					"key": "Content-Type",
 					"value": "application/json",
 					"description": "",
 					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NDk5MjYzNywicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NDk5NjIzNywiaWF0IjoxNTY0OTkyNjM3fQ.xwkkFVg3O8Dlrz5rQjN2NllE1tukUP9Ewp-3Dr_gV64",
+					"description": "",
+					"enabled": true
 				}
 			],
 			"url": "localhost:8081/materi/3",
+			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -72,7 +128,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1564034661999,
+			"time": 1564992656876,
 			"name": "Update data materi",
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
@@ -81,16 +137,23 @@
 		},
 		{
 			"id": "b1d5025b-2b22-e909-9c21-365202402de7",
-			"headers": "Content-Type: application/json\n",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NDk5MjE2MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NDk5NTc2MCwiaWF0IjoxNTY0OTkyMTYwfQ.nBDi1A0WTO_umeL4NSYIJVNgC6yfwsLXfUdP7hvDWtA\n",
 			"headerData": [
 				{
 					"key": "Content-Type",
 					"value": "application/json",
 					"description": "",
 					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NDk5MjE2MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NDk5NTc2MCwiaWF0IjoxNTY0OTkyMTYwfQ.nBDi1A0WTO_umeL4NSYIJVNgC6yfwsLXfUdP7hvDWtA",
+					"description": "",
+					"enabled": true
 				}
 			],
 			"url": "localhost:8081/materi",
+			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -101,7 +164,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1564027709326,
+			"time": 1564992175848,
 			"name": "Simpan data materi",
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
@@ -110,9 +173,16 @@
 		},
 		{
 			"id": "b5cb9602-2c4f-eea1-b1b2-f0e4d39713a9",
-			"headers": "",
-			"headerData": [],
-			"url": "localhost:8081/materi/5",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NDk5MjYzNywicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NDk5NjIzNywiaWF0IjoxNTY0OTkyNjM3fQ.xwkkFVg3O8Dlrz5rQjN2NllE1tukUP9Ewp-3Dr_gV64\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NDk5MjYzNywicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NDk5NjIzNywiaWF0IjoxNTY0OTkyNjM3fQ.xwkkFVg3O8Dlrz5rQjN2NllE1tukUP9Ewp-3Dr_gV64",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/materi/26",
 			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -125,35 +195,94 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1564034741507,
+			"time": 1564992696441,
 			"name": "Delete data materi",
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
 			"responses": []
 		},
 		{
+			"id": "d2fecbfe-884b-1d1e-df4b-ad97414cea81",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/login",
+			"folder": "b34e57a2-3d85-8dc5-df92-245750472a5a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564991896492,
+			"name": "login",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\": \"hasantdq\",\n\t\"password\": \"password\"\n}"
+		},
+		{
+			"id": "ed996408-27ab-99dd-c2d1-185945772f66",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/buat-akun",
+			"folder": "fbc045d5-b994-4dc4-291f-094df7608b62",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564994269952,
+			"name": "Buat Akun",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\": \"hasantdq\",\n\t\"email\": \"hasantdq@gmail.com\",\n\t\"nama_lengkap\": \"Tasdiq Hasan\",\n\t\"password\": \"password\"\n}"
+		},
+		{
 			"id": "f0fe69f2-c4e5-fed1-0a63-a4d3a23f5f4f",
 			"headers": "",
 			"headerData": [],
 			"url": "localhost:8081/materi",
+			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
 			"queryParams": [],
+			"preRequestScript": null,
 			"pathVariables": {},
 			"pathVariableData": [],
-			"preRequestScript": null,
 			"method": "GET",
-			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
 			"data": null,
 			"dataMode": "params",
-			"name": "Daftar Materi",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1563941737265,
 			"version": 2,
-			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"folder": "0556dfdf-d02a-ebfd-3698-7f15c2b96c02"
+			"time": 1564992155370,
+			"name": "Daftar Materi",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": []
 		}
 	]
 }
