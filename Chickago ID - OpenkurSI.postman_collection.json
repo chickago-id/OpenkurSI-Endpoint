@@ -5,6 +5,34 @@
 	"order": [],
 	"folders": [
 		{
+			"name": "Jadwal",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"order": [
+				"75ffe6bb-cb13-4628-d1dd-73ebf86ef2f0",
+				"4ef49313-fffe-e7a7-486a-efcd3d0ddfb1",
+				"f95135b5-b036-d1dc-844c-4ff6e9e44d8c",
+				"61d5158f-a784-1ffd-cf93-b6e6a9e25eb6"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "96f0da1d-07ef-2024-f655-b7729c2bc63a"
+		},
+		{
+			"name": "Kelas",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"order": [
+				"eee8b95e-d868-a993-6aa8-74ad98a53369",
+				"b21b8cf9-a288-0b6d-f79f-c4f912499f26",
+				"2cda4265-0a27-0820-b51f-b84cc9085208",
+				"464e1e8f-4aa1-28a6-b0dc-3fc032a04e7d"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "c5b3ab28-7a6e-be0c-ffd5-7537278c80be"
+		},
+		{
 			"name": "Login",
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
@@ -35,23 +63,84 @@
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
 			"order": [
-				"56346f7f-e77d-e827-b125-a4d606c8c2f4",
 				"ed996408-27ab-99dd-c2d1-185945772f66"
 			],
 			"owner": 0,
 			"folders_order": [],
 			"id": "fbc045d5-b994-4dc4-291f-094df7608b62"
+		},
+		{
+			"name": "Peserta Kelas",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"order": [
+				"5a204d57-3141-4fea-0c3c-d5ac40781c2a"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "68e96dbf-9d95-a998-6d61-5daffcc6328d"
+		},
+		{
+			"name": "Profil",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"order": [
+				"89a21d74-d0fd-f3da-6286-e787480e588b",
+				"ef49bb48-cb5d-927c-9761-64d524f4547d"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "6bf5c250-20d5-2575-5064-959fecb26a78"
 		}
 	],
 	"folders_order": [
 		"0556dfdf-d02a-ebfd-3698-7f15c2b96c02",
 		"fbc045d5-b994-4dc4-291f-094df7608b62",
-		"b34e57a2-3d85-8dc5-df92-245750472a5a"
+		"b34e57a2-3d85-8dc5-df92-245750472a5a",
+		"6bf5c250-20d5-2575-5064-959fecb26a78",
+		"96f0da1d-07ef-2024-f655-b7729c2bc63a",
+		"c5b3ab28-7a6e-be0c-ffd5-7537278c80be",
+		"68e96dbf-9d95-a998-6d61-5daffcc6328d"
 	],
 	"timestamp": 1563938851514,
 	"owner": 0,
 	"public": false,
 	"requests": [
+		{
+			"id": "2cda4265-0a27-0820-b51f-b84cc9085208",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMzMTM1Miwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNDk1MiwiaWF0IjoxNTY1MzMxMzUyLCJ1c2VySWQiOjEyfQ.k8ySE1C1bEmUbfhkwPuwA6-6R98dN_Vuj-iyUCOR1CI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMzMTM1Miwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNDk1MiwiaWF0IjoxNTY1MzMxMzUyLCJ1c2VySWQiOjEyfQ.k8ySE1C1bEmUbfhkwPuwA6-6R98dN_Vuj-iyUCOR1CI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/kelas/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565331510930,
+			"name": "Update Kelas",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"id_materi\": 1,\n\t\"kode_kelas\": \"FTG.0900.09.2019\",\n\t\"jenis_kelas\": \"Intensif\",\n\t\"jam_pilihan\": \"09:00\",\n\t\"tanggal_mulai\": \"2019-08-15\",\n\t\"target_peserta\": 7,\n\t\"jumlah_pertemuan\": 12,\n\t\"biaya\": 150000,\n\t\"status\": \"pending\"\n\t\n}"
+		},
 		{
 			"id": "356af774-ddf9-1d1c-da00-cbe8e8074b74",
 			"headers": "",
@@ -76,28 +165,197 @@
 			"responses": []
 		},
 		{
-			"id": "56346f7f-e77d-e827-b125-a4d606c8c2f4",
+			"id": "464e1e8f-4aa1-28a6-b0dc-3fc032a04e7d",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMzMTM1Miwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNDk1MiwiaWF0IjoxNTY1MzMxMzUyLCJ1c2VySWQiOjEyfQ.k8ySE1C1bEmUbfhkwPuwA6-6R98dN_Vuj-iyUCOR1CI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMzMTM1Miwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNDk1MiwiaWF0IjoxNTY1MzMxMzUyLCJ1c2VySWQiOjEyfQ.k8ySE1C1bEmUbfhkwPuwA6-6R98dN_Vuj-iyUCOR1CI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/kelas/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565331600428,
+			"name": "Delete Kelas",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": []
+		},
+		{
+			"id": "4ef49313-fffe-e7a7-486a-efcd3d0ddfb1",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMyMzA4MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMyNjY4MCwiaWF0IjoxNTY1MzIzMDc5LCJ1c2VySWQiOjEyfQ.swfMMszvZaeojs2D0w47vcWIoK3iarznELdN6dGt_kI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMyMzA4MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMyNjY4MCwiaWF0IjoxNTY1MzIzMDc5LCJ1c2VySWQiOjEyfQ.swfMMszvZaeojs2D0w47vcWIoK3iarznELdN6dGt_kI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/jadwal",
+			"folder": "96f0da1d-07ef-2024-f655-b7729c2bc63a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565323465724,
+			"name": "Post Jadwal",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_kelas\": 1,\n\t\"tanggal\": \"2019-08-16\",\n\t\"jam_pilihan\": \"08:00\" \n}"
+		},
+		{
+			"id": "5a204d57-3141-4fea-0c3c-d5ac40781c2a",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcTUiLCJuYmYiOjE1NjUzMzMxNzMsInJvbGVzIjpbIlBlc2VydGEiXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNjc3MywiaWF0IjoxNTY1MzMzMTczLCJ1c2VySWQiOjE3fQ.NqSNpPi6VFOzJBj4EUZNTkqHMP-fOgKEQa3E1WfxXIc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcTUiLCJuYmYiOjE1NjUzMzMxNzMsInJvbGVzIjpbIlBlc2VydGEiXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNjc3MywiaWF0IjoxNTY1MzMzMTczLCJ1c2VySWQiOjE3fQ.NqSNpPi6VFOzJBj4EUZNTkqHMP-fOgKEQa3E1WfxXIc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/kelaspeserta",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565333879616,
+			"name": "Pendaftaran Peserta Kelas",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_kelas\": 1,\n\t\"id_user\": 17,\n\t\"status\": \"pending\"\n}"
+		},
+		{
+			"id": "61d5158f-a784-1ffd-cf93-b6e6a9e25eb6",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMyMzA4MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMyNjY4MCwiaWF0IjoxNTY1MzIzMDc5LCJ1c2VySWQiOjEyfQ.swfMMszvZaeojs2D0w47vcWIoK3iarznELdN6dGt_kI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMyMzA4MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMyNjY4MCwiaWF0IjoxNTY1MzIzMDc5LCJ1c2VySWQiOjEyfQ.swfMMszvZaeojs2D0w47vcWIoK3iarznELdN6dGt_kI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/jadwal/1",
+			"folder": "96f0da1d-07ef-2024-f655-b7729c2bc63a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565324003725,
+			"name": "Delete Jadwal",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": []
+		},
+		{
+			"id": "75ffe6bb-cb13-4628-d1dd-73ebf86ef2f0",
 			"headers": "",
 			"headerData": [],
-			"url": "localhost:8081/pendaftaran",
+			"url": "localhost:8081/jadwal",
 			"queryParams": [],
 			"pathVariables": {},
 			"pathVariableData": [],
 			"preRequestScript": null,
-			"method": "POST",
+			"method": "GET",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
 			"data": null,
 			"dataMode": "params",
-			"name": "Pendaftaran Peserta",
+			"name": "Get All Jadwal",
 			"description": "",
 			"descriptionFormat": "html",
-			"time": 1564114456696,
+			"time": 1565185286948,
 			"version": 2,
 			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"folder": "fbc045d5-b994-4dc4-291f-094df7608b62"
+			"folder": "96f0da1d-07ef-2024-f655-b7729c2bc63a"
+		},
+		{
+			"id": "89a21d74-d0fd-f3da-6286-e787480e588b",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcTUiLCJuYmYiOjE1NjUxNjUwMjksInJvbGVzIjpbIlBlc2VydGEiXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTE2ODYyOSwiaWF0IjoxNTY1MTY1MDI5LCJ1c2VySWQiOjE3fQ.bxmCMEol7JQE6_xC-g0DX55YG0CiwY2z4Wb2XIi653Y\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcTUiLCJuYmYiOjE1NjUxNjUwMjksInJvbGVzIjpbIlBlc2VydGEiXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTE2ODYyOSwiaWF0IjoxNTY1MTY1MDI5LCJ1c2VySWQiOjE3fQ.bxmCMEol7JQE6_xC-g0DX55YG0CiwY2z4Wb2XIi653Y",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/profil",
+			"folder": "6bf5c250-20d5-2575-5064-959fecb26a78",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565165787370,
+			"name": "Profil",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": []
 		},
 		{
 			"id": "8d769ee3-ca47-726c-23b5-ddd06e864c09",
@@ -172,6 +430,41 @@
 			"rawModeData": "{\n\t\"kode_materi\": \"XLS\",\n\t\"nama_materi\": \"Professional Excel\"\n}"
 		},
 		{
+			"id": "b21b8cf9-a288-0b6d-f79f-c4f912499f26",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMzMTM1Miwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNDk1MiwiaWF0IjoxNTY1MzMxMzUyLCJ1c2VySWQiOjEyfQ.k8ySE1C1bEmUbfhkwPuwA6-6R98dN_Vuj-iyUCOR1CI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMzMTM1Miwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMzNDk1MiwiaWF0IjoxNTY1MzMxMzUyLCJ1c2VySWQiOjEyfQ.k8ySE1C1bEmUbfhkwPuwA6-6R98dN_Vuj-iyUCOR1CI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/kelas",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565331408293,
+			"name": "Post Kelas",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_materi\": 1,\n\t\"kode_kelas\": \"FTG.0900.09.2019\",\n\t\"jenis_kelas\": \"Intensif\",\n\t\"jam_pilihan\": \"09:00\",\n\t\"tanggal_mulai\": \"2019-08-15\",\n\t\"target_peserta\": 7,\n\t\"jumlah_pertemuan\": 12,\n\t\"biaya\": 150000,\n\t\"status\": \"pending\"\n\t\n}"
+		},
+		{
 			"id": "b5cb9602-2c4f-eea1-b1b2-f0e4d39713a9",
 			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NDk5MjYzNywicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NDk5NjIzNywiaWF0IjoxNTY0OTkyNjM3fQ.xwkkFVg3O8Dlrz5rQjN2NllE1tukUP9Ewp-3Dr_gV64\n",
 			"headerData": [
@@ -224,12 +517,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1564991896492,
+			"time": 1565333174818,
 			"name": "login",
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
 			"responses": [],
-			"rawModeData": "{\n\t\"username\": \"hasantdq\",\n\t\"password\": \"password\"\n}"
+			"rawModeData": "{\n\t\"username\": \"hasantdq5\",\n\t\"password\": \"password\"\n}"
 		},
 		{
 			"id": "ed996408-27ab-99dd-c2d1-185945772f66",
@@ -262,6 +555,66 @@
 			"rawModeData": "{\n\t\"username\": \"hasantdq\",\n\t\"email\": \"hasantdq@gmail.com\",\n\t\"nama_lengkap\": \"Tasdiq Hasan\",\n\t\"password\": \"password\"\n}"
 		},
 		{
+			"id": "eee8b95e-d868-a993-6aa8-74ad98a53369",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8081/kelas",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"data": null,
+			"dataMode": "params",
+			"name": "All Kelas",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1565330802771,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "c5b3ab28-7a6e-be0c-ffd5-7537278c80be"
+		},
+		{
+			"id": "ef49bb48-cb5d-927c-9761-64d524f4547d",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcTUiLCJuYmYiOjE1NjUyMzU4MzgsInJvbGVzIjpbIlBlc2VydGEiXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTIzOTQzOCwiaWF0IjoxNTY1MjM1ODM4LCJ1c2VySWQiOjE3fQ.M-RKC8rTqO-jMZzgITNRglYI21uOR_jOjDnK7CZPiJE\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcTUiLCJuYmYiOjE1NjUyMzU4MzgsInJvbGVzIjpbIlBlc2VydGEiXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTIzOTQzOCwiaWF0IjoxNTY1MjM1ODM4LCJ1c2VySWQiOjE3fQ.M-RKC8rTqO-jMZzgITNRglYI21uOR_jOjDnK7CZPiJE",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/profil",
+			"folder": "6bf5c250-20d5-2575-5064-959fecb26a78",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565237912521,
+			"name": "Edit Profil",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 2,\n\t\"id_user\": 17,\n\t\"nama_lengkap\": \"Tasdiq Hasan\",\n\t\"tanggal_lahir\": \"2019-08-08\",\n\t\"tempat_lahir\": \"Sleman\",\n\t\"jenis_kelamin\": \"Laki-laki\",\n\t\"agama\": \"Islam\",\n\t\"alamat\": \"Nogotirto\",\n\t\"kecamatan\": \"Gamping\",\n\t\"kota_kabupaten\": \"Sleman\",\n\t\"provinsi\": \"D.I. Yogyakarta\",\n\t\"kode_pos\": \"55292\",\n\t\"telepon\" : \"12345\",\n\t\"email\": \"hasantdq@email.com\",\n\t\"status_saat_ini\": \"Sudah Bekerja\",\n\t\"asal_sekolah_kampus\" : \"-\",\n\t\"pekerjaan\": \"Tukang Ketik\",\n\t\"nama_orangtua\": \"-\",\n\t\"telepon_orangtua\": \"-\",\n\t\"foto\": \"-\",\n\t\"informasi_dari\": \"-\",\n\t\"akun_ig\": \"-\"\n}"
+		},
+		{
 			"id": "f0fe69f2-c4e5-fed1-0a63-a4d3a23f5f4f",
 			"headers": "",
 			"headerData": [],
@@ -283,6 +636,42 @@
 			"description": "",
 			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
 			"responses": []
+		},
+		{
+			"id": "f95135b5-b036-d1dc-844c-4ff6e9e44d8c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMyMzA4MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMyNjY4MCwiaWF0IjoxNTY1MzIzMDc5LCJ1c2VySWQiOjEyfQ.swfMMszvZaeojs2D0w47vcWIoK3iarznELdN6dGt_kI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXNhbnRkcSIsIm5iZiI6MTU2NTMyMzA4MCwicm9sZXMiOlsiQWRtaW4iXSwiaXNzIjoiYmFja2VuZCIsImV4cCI6MTU2NTMyNjY4MCwiaWF0IjoxNTY1MzIzMDc5LCJ1c2VySWQiOjEyfQ.swfMMszvZaeojs2D0w47vcWIoK3iarznELdN6dGt_kI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/jadwal/1",
+			"folder": "96f0da1d-07ef-2024-f655-b7729c2bc63a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1565323957431,
+			"name": "Edit Jadwal",
+			"description": "",
+			"collectionId": "de68668d-53e3-a59d-3c61-162846c9aab8",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"id_kelas\": 1,\n\t\"tanggal\": \"2019-08-13\",\n\t\"jam_pilihan\": \"08:00\" \n}"
 		}
 	]
 }
